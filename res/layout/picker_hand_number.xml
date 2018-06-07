@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res-auto" app:background="@c2076a/white" app:layout_width="match_parent" app:layout_height="wrap_content">
+    <TextView app:layout_width="wrap_content" app:layout_height="UNKNOWN_DATA_0x7f0a0049" app:layout_marginTop="@dimen/dp10" app:text="@string/Notifications_Preview_Reassign_Text_Choose_a_Number" app:layout_alignParentTop="true" app:layout_centerHorizontal="true" />
+    <com.portfolio.platform.view.ClockView app:id="@id/clock_view" app:layout_width="match_parent" app:layout_height="UNKNOWN_DATA_0x7f0a0143" app:layout_marginTop="@dimen/dp40" app:layout_marginBottom="@dimen/dp40" app:layout_centerHorizontal="true" app:cv_fontName="@string/font_path_regular" />
+    <include app:layout_width="match_parent" app:layout_height="wrap_content" app:layout_below="@id/clock_view" layout="@layout/picker_buttons" />
+</RelativeLayout>

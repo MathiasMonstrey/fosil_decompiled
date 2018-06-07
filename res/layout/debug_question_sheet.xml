@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent"
+    <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <com.portfolio.platform.view.FlexibleTextView android:id="@id/tv_version_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="version" android:textAlignment="center" />
+        <View android:background="@color/fossilCharcoal" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x101" />
+    </LinearLayout>
+    <LinearLayout android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="vertical" android:id="@id/ll_kill_app_feedback" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <com.portfolio.platform.view.FlexibleButton android:textColor="0x106000c" android:id="@id/bt_kill_app_feedback" android:background="0x106000d" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x3c01" android:text="GATT CONNECTION" />
+        <View android:background="@c2076a/colorPrimary" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x101" />
+    </LinearLayout>
+    <LinearLayout android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="vertical" android:id="@id/ll_on_off_bluetooth_feedback" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <com.portfolio.platform.view.FlexibleButton android:textColor="0x106000c" android:id="@id/bt_on_off_bluetooth_feedback" android:background="0x106000d" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x3c01" android:text="HID CONNECTION" />
+        <View android:background="@c2076a/colorPrimary" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x101" />
+    </LinearLayout>
+    <LinearLayout android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="vertical" android:id="@id/ll_on_off_wifi_feedback" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <com.portfolio.platform.view.FlexibleButton android:textColor="0x106000c" android:id="@id/bt_on_off_wifi_feedback" android:background="0x106000d" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x3c01" android:text="Off/on Wifi & Bluetooth" />
+        <View android:background="@c2076a/colorPrimary" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x101" />
+    </LinearLayout>
+    <LinearLayout android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="vertical" android:id="@id/ll_on_off_airplane_feedback" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <com.portfolio.platform.view.FlexibleButton android:textColor="0x106000c" android:id="@id/bt_on_off_airplane_feedback" android:background="0x106000d" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x3c01" android:text="On/off Airplane" />
+        <View android:background="@c2076a/colorPrimary" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x101" />
+    </LinearLayout>
+    <LinearLayout android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="vertical" android:id="@id/ll_foget_device_feedback" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <com.portfolio.platform.view.FlexibleButton android:textColor="0x106000c" android:id="@id/bt_foget_device_feedback" android:background="0x106000d" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x3c01" android:text="Forget device, kill app and relaunch" />
+        <View android:background="@c2076a/colorPrimary" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x101" />
+    </LinearLayout>
+    <LinearLayout android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="vertical" android:id="@id/ll_reboot_phone_feedback" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <com.portfolio.platform.view.FlexibleButton android:textColor="0x106000c" android:id="@id/bt_reboot_phone_feedback" android:background="0x106000d" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x3c01" android:text="Reboot phone" />
+        <View android:background="@c2076a/colorPrimary" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x101" />
+    </LinearLayout>
+    <LinearLayout android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="vertical" android:id="@id/ll_clear_bluetooth_feedback" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <com.portfolio.platform.view.FlexibleButton android:textColor="0x106000c" android:id="@id/bt_clear_bluetooth_feedback" android:background="0x106000d" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x3c01" android:text="ClearBluetoothCache" />
+    </LinearLayout>
+</LinearLayout>

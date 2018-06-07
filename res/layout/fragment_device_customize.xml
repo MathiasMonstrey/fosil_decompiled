@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res-auto">
+    <android.support.constraint.ConstraintLayout app:id="@id/ctlTopContentView" app:background="@drawable/img_shortcuts_detail" app:layout_width="match_parent" app:layout_height="match_parent">
+        <android.support.constraint.Guideline app:orientation="vertical" app:id="@id/guideline" app:layout_width="UNKNOWN_DATA_0x1" app:layout_height="UNKNOWN_DATA_0x1" app:layout_constraintGuide_percent="@dimen/guidelineDeviceCustomizePercent" />
+        <ImageView app:id="@id/img_topLayout" app:layout_width="wrap_content" app:layout_height="UNKNOWN_DATA_0x1" app:src="@drawable/silhouette_watch_large" app:scaleType="fitCenter" app:adjustViewBounds="true" app:layout_constraintBottom_toBottomOf="0" app:layout_constraintEnd_toEndOf="@id/guideline" app:layout_constraintTop_toTopOf="0" />
+        <com.portfolio.platform.ui.view.LeftDrawableButton app:id="@id/save_btn" app:layout_width="UNKNOWN_DATA_0x1" app:layout_height="UNKNOWN_DATA_0x7f0a0075" app:layout_marginBottom="@dimen/dp30" app:paddingStart="@dimen/dp5" app:layout_marginStart="@dimen/dp16" app:layout_marginEnd="@dimen/dp20" app:layout_constraintBottom_toBottomOf="0" app:layout_constraintEnd_toEndOf="0" app:layout_constraintHorizontal_bias="0.0" app:layout_constraintStart_toStartOf="@id/guideline" app:layout_constraintWidth_default="1" app:icon="@drawable/ic_bookmark_active" app:background="@drawable/btn_none_shadow_bg" app:text="@string/Shortcuts_Preset_Text_Save_As_Preset" />
+        <com.portfolio.platform.ui.widget.PresetGroupLayout app:id="@id/presets_group" app:layout_width="UNKNOWN_DATA_0x1" app:layout_height="UNKNOWN_DATA_0x1" app:layout_constraintBottom_toTopOf="@id/save_btn" app:layout_constraintEnd_toEndOf="0" app:layout_constraintStart_toStartOf="0" app:layout_constraintTop_toTopOf="0" />
+    </android.support.constraint.ConstraintLayout>
+</merge>

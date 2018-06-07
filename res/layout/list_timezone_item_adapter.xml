@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:background="@c2076a/white" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f0a0179" android:layout_marginBottom="2dp">
+    <com.portfolio.platform.view.FlexibleTextView android:textSize="@dimen/sp16" android:textColor="@color/hexA3A19E" android:id="@id/tv_second_timezone" android:background="@c2076a/white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_marginStart="@dimen/dp16" style="@style/Small.CoolGray" />
+</RelativeLayout>

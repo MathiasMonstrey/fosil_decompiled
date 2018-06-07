@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res-auto">
+    <item app:id="@c2077b/action_reset" app:title="Reset chart" app:showAsAction="UNKNOWN_DATA_0x0" />
+    <item app:id="@c2077b/action_subcolumns" app:title="Subcolumns" app:showAsAction="UNKNOWN_DATA_0x0" />
+    <item app:id="@c2077b/action_stacked" app:title="Stacked" app:showAsAction="UNKNOWN_DATA_0x0" />
+    <item app:id="@c2077b/action_negative_subcolumns" app:title="Negative subcolumns" app:showAsAction="UNKNOWN_DATA_0x0" />
+    <item app:id="@c2077b/action_negative_stacked" app:title="Negative stacked" app:showAsAction="UNKNOWN_DATA_0x0" />
+    <item app:id="@c2077b/action_toggle_axes" app:title="Toggle axes" app:showAsAction="UNKNOWN_DATA_0x0" />
+    <item app:id="@c2077b/action_toggle_axes_names" app:title="Toggle axes names" app:showAsAction="UNKNOWN_DATA_0x0" />
+    <item app:id="@c2077b/action_toggle_labels" app:title="Toggle labels" app:showAsAction="UNKNOWN_DATA_0x0" />
+    <item app:id="@c2077b/action_animate" app:title="Animate chart" app:showAsAction="UNKNOWN_DATA_0x0" />
+    <item app:id="@c2077b/action_toggle_selection_mode" app:title="Toggle selection mode" app:showAsAction="UNKNOWN_DATA_0x0" />
+    <item app:id="@c2077b/action_toggle_touch_zoom" app:title="Toggle touch zoom" app:showAsAction="UNKNOWN_DATA_0x0" />
+    <item app:id="@c2077b/action_zoom_both" app:title="Zoom X/Y" app:showAsAction="UNKNOWN_DATA_0x0" />
+    <item app:id="@c2077b/action_zoom_horizontal" app:title="Zoom X" app:showAsAction="UNKNOWN_DATA_0x0" />
+    <item app:id="@c2077b/action_zoom_vertical" app:title="Zoom Y" app:showAsAction="UNKNOWN_DATA_0x0" />
+</menu>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:background="@color/color_000000_30" android:padding="@dimen/dp48" android:layout_width="match_parent" android:layout_height="match_parent">
+    <RelativeLayout android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:background="@drawable/btn_shadow_bg" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <LinearLayout android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:orientation="horizontal" android:id="@id/ll_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp24" android:layout_centerHorizontal="true" android:paddingStart="@dimen/dp15" android:paddingEnd="@dimen/dp15">
+            <android.support.v7.widget.AppCompatImageView android:id="@id/aciv_checked" android:layout_width="wrap_content" android:layout_height="UNKNOWN_DATA_0x7f0a004f" android:scaleType="fitCenter" android:layout_marginEnd="@dimen/dp10" />
+            <com.portfolio.platform.view.FlexibleTextView android:id="@id/ftv_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textAllCaps="true" style="@style/H3" />
+        </LinearLayout>
+        <com.portfolio.platform.view.FlexibleTextView android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/ftv_description" android:padding="@dimen/dp15" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_below="@id/ll_title" style="@style/Body.CoolGray" />
+        <com.portfolio.platform.view.FlexibleButton android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/fb_ok" android:layout_width="UNKNOWN_DATA_0x7f0a002d" android:layout_height="UNKNOWN_DATA_0x7f0a0065" android:layout_marginTop="@dimen/dp15" android:layout_marginBottom="@dimen/dp20" android:layout_below="@id/ftv_description" android:layout_centerHorizontal="true" android:textAllCaps="true" style="@style/Button.Scarlett" />
+    </RelativeLayout>
+</FrameLayout>

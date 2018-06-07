@@ -1,0 +1,35 @@
+package com.fossil;
+
+import android.content.Context;
+import com.misfit.frameworks.common.enums.HTTPMethod;
+import com.misfit.frameworks.network.configuration.MFConfiguration;
+import com.misfit.frameworks.network.request.MFBaseRequest;
+import com.misfit.frameworks.network.responses.MFResponse;
+import com.portfolio.platform.PortfolioApp;
+import com.portfolio.platform.response.MFGetListIntegrationResponse;
+
+public class cpv extends MFBaseRequest {
+    public cpv(Context context) {
+        super(context);
+    }
+
+    protected Object initJsonData() {
+        return null;
+    }
+
+    protected HTTPMethod initHttpMethod() {
+        return HTTPMethod.GET;
+    }
+
+    protected MFResponse initResponse() {
+        return new MFGetListIntegrationResponse();
+    }
+
+    protected MFConfiguration initConfiguration() {
+        return dqn.bK(PortfolioApp.ZQ());
+    }
+
+    protected String initApiMethod() {
+        return "/integrations";
+    }
+}

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent"
+    <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <com.portfolio.platform.view.FlexibleTextView android:id="@id/tv_version_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="version" android:textAlignment="center" />
+        <View android:background="@color/fossilCharcoal" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x101" />
+    </LinearLayout>
+    <LinearLayout android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="vertical" android:id="@id/ll_beta_feedback" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <com.portfolio.platform.view.FlexibleButton android:textColor="0x106000c" android:id="@id/send_beta_feedback" android:background="0x106000d" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x3c01" android:text="Beta Testing Feedback" />
+        <View android:background="@c2076a/colorPrimary" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x101" />
+    </LinearLayout>
+    <LinearLayout android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="vertical" android:id="@id/ll_general_feedback" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <com.portfolio.platform.view.FlexibleButton android:textColor="0x106000c" android:id="@id/send_general_feedback" android:background="0x106000d" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x3c01" android:text="General Feedback" />
+        <View android:background="@c2076a/colorPrimary" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x101" />
+    </LinearLayout>
+    <LinearLayout android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="vertical" android:id="@id/ll_send_question_feedback" android:visibility="visible" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <com.portfolio.platform.view.FlexibleButton android:textColor="0x106000c" android:id="@id/send_sw_question_feedback" android:background="0x106000d" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x3c01" android:text="Send Question Feedback" />
+        <View android:background="@c2076a/colorPrimary" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x101" />
+    </LinearLayout>
+    <LinearLayout android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="vertical" android:id="@id/ll_send_feedback" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <com.portfolio.platform.view.FlexibleButton android:textColor="0x106000c" android:id="@id/send_sw_feedback" android:background="0x106000d" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x3c01" android:text="Send Feedback" />
+        <View android:background="@c2076a/colorPrimary" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x101" />
+    </LinearLayout>
+    <LinearLayout android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="vertical" android:id="@id/ll_send_hw_log" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <com.portfolio.platform.view.FlexibleButton android:textColor="0x106000c" android:id="@id/send_fw_log" android:background="0x106000d" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x3c01" android:text="Send HW Log" />
+        <View android:background="@c2076a/colorPrimary" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x101" />
+    </LinearLayout>
+    <LinearLayout android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="vertical" android:id="@id/ll_open_debug_screen" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <com.portfolio.platform.view.FlexibleButton android:textColor="0x106000c" android:id="@id/open_debug_screen" android:background="0x106000d" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x3c01" android:text="Open Debug Screen" />
+    </LinearLayout>
+</LinearLayout>

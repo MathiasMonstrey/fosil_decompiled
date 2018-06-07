@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res-auto" app:background="@c2076a/white" app:layout_width="match_parent" app:layout_height="match_parent">
+    <com.portfolio.platform.view.FlexibleTextView app:id="@id/setting_tv" app:layout_width="UNKNOWN_DATA_0x1" app:layout_height="wrap_content" app:layout_margin="@dimen/activity_vertical_margin_normal" app:layout_marginTop="@dimen/activity_vertical_margin_larger" app:layout_marginBottom="@dimen/activity_vertical_margin_normal" app:text="settings weather" app:layout_constraintEnd_toEndOf="0" app:layout_constraintStart_toStartOf="0" />
+</android.support.constraint.ConstraintLayout>

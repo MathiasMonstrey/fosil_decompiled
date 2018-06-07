@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res-auto" app:orientation="vertical" app:background="@c2076a/white" app:paddingTop="@dimen/dp25" app:paddingBottom="@dimen/dp25" app:layout_width="match_parent" app:layout_height="wrap_content">
+    <com.portfolio.platform.view.FlexibleTextView app:layout_width="match_parent" app:layout_height="wrap_content" app:layout_marginBottom="@dimen/activity_vertical_margin" app:text="@string/Stats_BC_Quit_Title_CONFIRM" app:layout_marginStart="@dimen/activity_horizontal_margin" app:layout_marginEnd="@dimen/activity_horizontal_margin" app:textType="2" style="@style/BuddyChallenge.Title" />
+    <com.portfolio.platform.view.FlexibleTextView app:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" app:layout_width="match_parent" app:layout_height="wrap_content" app:layout_marginTop="@dimen/activity_vertical_margin" app:layout_marginBottom="@dimen/activity_vertical_margin_large" app:text="@string/Stats_BC_Quit_Text_Are_you_sure_you_want" app:layout_marginStart="@dimen/activity_horizontal_margin" app:layout_marginEnd="@dimen/activity_horizontal_margin" style="@style/BuddyChallenge.Desc" />
+    <RelativeLayout app:layout_width="match_parent" app:layout_height="wrap_content" app:layout_marginStart="@dimen/activity_horizontal_margin" app:layout_marginEnd="@dimen/activity_horizontal_margin">
+        <com.portfolio.platform.view.FlexibleButton app:textColor="@color/fossilOrange" app:id="@id/fbtn_cancel" app:background="@c2076a/white" app:text="@string/Stats_BC_Quit_CTA_CANCEL" app:layout_alignParentStart="true" style="@style/Button.Portfolio.Small" />
+        <com.portfolio.platform.view.FlexibleButton app:id="@id/fbtn_ok" app:text="@string/Stats_BC_Quit_CTA_OK" app:layout_alignParentEnd="true" style="@style/Button.Portfolio.Small" />
+    </RelativeLayout>
+</LinearLayout>

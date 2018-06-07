@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:background="@drawable/background_underline_a3a19e" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginStart="@dimen/dp15" android:layout_marginEnd="@dimen/dp15">
+    <com.portfolio.platform.view.FlexibleTextView android:textColor="@color/hexA3A19E" android:id="@id/ftvSuggestionName" android:paddingTop="@dimen/dp24" android:paddingBottom="@dimen/dp24" android:layout_width="match_parent" android:layout_height="match_parent" android:paddingStart="@dimen/dp10" android:paddingEnd="@dimen/dp10" style="@style/Body.CoolGray" />
+</LinearLayout>

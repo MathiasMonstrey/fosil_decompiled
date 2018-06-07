@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mappingset>
+    <sku name="L0F">
+        <microappmapping button="top" appid="activity"/>
+        <microappmapping button="middle" appid="music-control"/>
+        <microappmapping button="bottom" appid="selfie"/>
+    </sku>
+    <sku name="M0F">
+        <microappmapping button="top" appid="activity"/>
+        <microappmapping button="middle" appid="music-control"/>
+        <microappmapping button="bottom" appid="selfie"/>
+    </sku>
+    <sku name="W0F">
+        <microappmapping button="top" appid="music-control"/>
+        <microappmapping button="middle" appid="sequence"/>
+        <microappmapping button="bottom" appid="selfie"/>
+    </sku>
+</mappingset>
+

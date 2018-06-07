@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:background="@c2076a/white" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.portfolio.platform.view.SingleLineTextView android:textColor="@c2076a/white" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/title" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f0a0079" android:layout_toStartOf="@id/save" android:layout_toEndOf="@id/save" android:letterSpacing="0.11" style="@style/AcaslonProItalic" />
+    <ImageView android:id="@id/save" android:padding="@dimen/dp18" android:layout_width="UNKNOWN_DATA_0x7f010085" android:layout_height="UNKNOWN_DATA_0x7f010085" android:src="@drawable/ic_back_dark" />
+    <android.support.v7.widget.RecyclerView android:id="@id/list" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_below="@id/save" android:overScrollMode="never" />
+</RelativeLayout>

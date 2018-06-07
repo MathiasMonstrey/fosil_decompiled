@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res-auto" app:id="@id/widget_container" app:background="@color/transparent" app:layout_width="UNKNOWN_DATA_0x7f0a014c" app:layout_height="UNKNOWN_DATA_0x7f0a014b">
+    <ImageView app:id="@id/iv_widget_social" app:layout_width="UNKNOWN_DATA_0x1" app:layout_height="UNKNOWN_DATA_0x1" app:scaleType="fitCenter" app:layout_constraintBottom_toBottomOf="0" app:layout_constraintEnd_toEndOf="0" app:layout_constraintStart_toStartOf="0" app:layout_constraintTop_toTopOf="0" app:layout_constraintVertical_bias="0.0" />
+</android.support.constraint.ConstraintLayout>

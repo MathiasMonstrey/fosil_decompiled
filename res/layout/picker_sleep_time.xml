@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:background="@c2076a/white" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <com.portfolio.platform.view.FlexibleTextView android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/textViewTitle" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="24dp" android:layout_marginBottom="16dp" android:text="@string/start_time" android:layout_centerHorizontal="true" android:textAllCaps="true" android:layout_marginStart="24dp" android:layout_marginEnd="24dp" style="@style/H2.Charcoal" />
+    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <Space android:layout_width="UNKNOWN_DATA_0xc801" android:layout_height="wrap_content" android:layout_weight="1.0" />
+        <com.portfolio.platform.view.NumberPicker android:id="@id/numberPickerOne" android:layout_width="UNKNOWN_DATA_0x5001" android:layout_height="wrap_content" android:layout_marginLeft="8dp" android:layout_marginRight="8dp" style="@style/NPWidget.Light.Large.Line.NumberPicker" />
+        <com.portfolio.platform.view.FlexibleTextView android:textSize="@dimen/text_size_small" android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@id/textView3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text=":" style="@style/Text.ScoutCond.100" />
+        <com.portfolio.platform.view.NumberPicker android:id="@id/numberPickerTwo" android:layout_width="UNKNOWN_DATA_0x5001" android:layout_height="wrap_content" android:layout_marginLeft="8dp" android:layout_marginRight="8dp" style="@style/NPWidget.Light.Large.Line.NumberPicker" />
+        <com.portfolio.platform.view.NumberPicker android:id="@id/numberPickerThree" android:layout_width="UNKNOWN_DATA_0x5001" android:layout_height="wrap_content" android:layout_marginLeft="8dp" android:layout_marginRight="8dp" style="@style/NPWidget.Light.Large.Line.NumberPicker" />
+        <Space android:layout_width="UNKNOWN_DATA_0xc801" android:layout_height="wrap_content" android:layout_weight="1.0" />
+    </LinearLayout>
+    <include android:id="@id/include" layout="@layout/picker_buttons" />
+</LinearLayout>

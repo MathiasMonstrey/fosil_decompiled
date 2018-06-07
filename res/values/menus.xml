@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <menu name="column_chart">res/menu/column_chart.xml</menu>
+    <menu name="menu">res/menu/menu.xml</menu>
+</resources>

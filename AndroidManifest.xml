@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="12638" android:versionName="2.3.1" package="com.fossil.wearables.fossil" platformBuildVersionCode="25" platformBuildVersionName="7.1.1">
+    <uses-sdk android:minSdkVersion="19" android:targetSdkVersion="25" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+    <uses-permission android:name="android.permission.READ_LOGS" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+    <uses-permission android:name="android.permission.BIND_NOTIFICATION_LISTENER_SERVICE" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <uses-permission android:name="android.permission.RECEIVE_SMS" />
+    <uses-permission android:name="android.permission.READ_SMS" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_PROFILE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="com.google.android.permission.PROVIDE_BACKGROUND" />
+    <uses-feature android:name="android.hardware.location.gps" android:required="false" />
+    <uses-permission android:name="com.google.android.permission.SET_WATCH_FACE_PRIVILEGED" />
+    <uses-permission android:name="com.google.android.permission.PROVIDE_SETUP_DEFAULTS" />
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.USE_CREDENTIALS" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-feature android:name="android.hardware.bluetooth" android:required="true" />
+    <uses-feature android:name="android.hardware.camera" android:required="false" />
+    <uses-feature android:name="android.hardware.telephony" android:required="false" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+    <uses-feature android:glEsVersion="20000" android:required="true" />
+    <permission android:name="com.fossil.wearables.fossil.permission.C2D_MESSAGE" android:protectionLevel="signature|signatureOrSystem" />
+    <uses-permission android:name="com.fossil.wearables.fossil.permission.C2D_MESSAGE" />
+    <uses-feature android:name="android.hardware.bluetooth_le" android:required="true" />
+    <application android:theme="@style/AppTheme" android:label="@string/app_name" android:icon="@mipmap/ic_launcher" android:name="com.portfolio.platform.PortfolioApp" android:allowBackup="false" android:supportsRtl="true" android:fullBackupContent="false">
+        <meta-data android:name="com.google.android.geo.API_KEY" android:value="@string/google_map_key" />
+        <provider android:name="android.support.v4.content.FileProvider" android:exported="false" android:authorities="com.fossil.wearables.fossil.fileprovider" android:grantUriPermissions="true">
+            <meta-data android:name="android.support.FILE_PROVIDER_PATHS" android:resource="@xml/file_paths" />
+        </provider>
+        <service android:name="com.portfolio.platform.service.ThirdPartyUploadIntentService" android:exported="false" />
+        <activity android:name="com.portfolio.platform.ui.SplashScreenActivity" android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.portfolio.platform.ui.MainActivity" android:launchMode="singleTop" android:screenOrientation="portrait" android:configChanges="keyboard|keyboardHidden|navigation|orientation|screenSize">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <data android:scheme="@string/scheme_name" android:host="@string/host_name" />
+            </intent-filter>
+        </activity>
+        <activity android:theme="@style/AppTheme.ScreenTransition" android:name="com.portfolio.platform.ui.notifications.contactandapp.NotificationContactAndAppActivity" android:screenOrientation="portrait" android:configChanges="keyboard|keyboardHidden|navigation|orientation|screenSize" />
+        <activity android:theme="@style/AppTheme.ScreenTransition" android:name="com.portfolio.platform.ui.user.LoginEmailActivity" android:screenOrientation="portrait" android:configChanges="keyboard|keyboardHidden|navigation|orientation|screenSize" />
+        <activity android:theme="@style/AppTheme.ScreenTransition" android:name="com.portfolio.platform.ui.user.SignUpActivity" android:screenOrientation="portrait" android:configChanges="keyboard|keyboardHidden|navigation|orientation|screenSize" />
+        <activity android:theme="@style/AppTheme.ScreenTransition" android:name="com.portfolio.platform.ui.user.WelcomeActivity" android:screenOrientation="portrait" android:configChanges="keyboard|keyboardHidden|navigation|orientation|screenSize" />
+        <activity android:theme="@style/AppTheme.ScreenTransition" android:name="com.portfolio.platform.ui.user.CreateAccountActivity" android:screenOrientation="portrait" android:configChanges="keyboard|keyboardHidden|navigation|orientation|screenSize" />
+        <activity android:theme="@style/AppTheme.ScreenTransition" android:name="com.portfolio.platform.ui.user.LoginActivity" android:screenOrientation="portrait" android:configChanges="keyboard|keyboardHidden|navigation|orientation|screenSize" />
+        <activity android:theme="@style/AppTheme.ScreenTransition" android:name="com.portfolio.platform.ui.user.SignUpEmailActivity" android:screenOrientation="portrait" android:configChanges="keyboard|keyboardHidden|navigation|orientation|screenSize" />
+        <activity android:theme="@style/AppTheme.ScreenTransition" android:name="com.portfolio.platform.ui.user.ForgotPasswordActivity" android:screenOrientation="portrait" android:configChanges="keyboard|keyboardHidden|navigation|orientation|screenSize" />
+        <activity android:theme="@style/AppTheme.ScreenTransition" android:name="com.portfolio.platform.ui.device.link.PairDeviceActivity" android:screenOrientation="portrait" android:configChanges="keyboard|keyboardHidden|navigation|orientation|screenSize" />
+        <activity android:theme="@style/AppTheme.ScreenTransition" android:name="com.portfolio.platform.ui.device.link.PairDeviceStartActivity" android:screenOrientation="portrait" android:configChanges="keyboard|keyboardHidden|navigation|orientation|screenSize" />
+        <service android:label="@string/app_name" android:name="com.portfolio.platform.service.FossilNotificationListenerService" android:permission="android.permission.BIND_NOTIFICATION_LISTENER_SERVICE" android:enabled="true">
+            <intent-filter>
+                <action android:name="android.service.notification.NotificationListenerService" />
+            </intent-filter>
+        </service>
+        <activity android:theme="@style/AppTheme.ScreenTransition" android:name="com.portfolio.platform.ui.profile.changepassword.ChangePasswordActivity" android:screenOrientation="portrait" android:configChanges="keyboard|keyboardHidden|navigation|orientation|screenSize" />
+        <activity android:theme="@style/AppTheme.ScreenTransition" android:name="com.portfolio.platform.ui.profile.editprofile.EditProfileActivity" android:screenOrientation="portrait" android:configChanges="keyboard|keyboardHidden|navigation|orientation|screenSize" />
+        <activity android:theme="@style/AppTheme.ScreenTransition" android:name="com.portfolio.platform.ui.profile.unit.ProfileUnitActivity" android:screenOrientation="portrait" android:configChanges="keyboard|keyboardHidden|navigation|orientation|screenSize" />
+        <activity android:theme="@style/AppTheme.ScreenTransition" android:name="com.portfolio.platform.ui.profile.connectedapps.ProfileConnectedAppsActivity" android:screenOrientation="portrait" android:configChanges="keyboard|keyboardHidden|navigation|orientation|screenSize" />
+        <activity android:theme="@style/AppTheme.ScreenTransition" android:name="com.portfolio.platform.ui.profile.optin.ProfileOptInActivity" android:screenOrientation="portrait" android:configChanges="keyboard|keyboardHidden|navigation|orientation|screenSize" />
+        <activity android:theme="@style/AppTheme.ScreenTransition" android:name="com.portfolio.platform.ui.profile.homeconfig.ProfileHomeConfigActivity" android:screenOrientation="portrait" android:configChanges="keyboard|keyboardHidden|navigation|orientation|screenSize" />
+        <activity android:theme="@style/AppTheme.ScreenTransition" android:name="com.portfolio.platform.ui.shortcuts.details.secondtimezone.SearchSecondTimezoneActivity" android:screenOrientation="portrait" android:configChanges="keyboard|keyboardHidden|navigation|orientation|screenSize" />
+        <activity android:theme="@style/AppTheme.ScreenTransition" android:name="com.portfolio.platform.ui.shortcuts.details.commute.AutoSuggestAddressActivity" android:screenOrientation="portrait" android:configChanges="keyboard|keyboardHidden|navigation|orientation|screenSize" />
+        <activity android:label="@string/app_name" android:name="com.fossil.wearables.fossil.wxapi.WXEntryActivity" android:exported="true" android:launchMode="singleInstance" android:screenOrientation="portrait" android:windowSoftInputMode="stateHidden|stateAlwaysHidden" />
+        <service android:name="com.portfolio.platform.service.MFDeviceService" android:enabled="true" android:exported="false" />
+        <service android:name="com.portfolio.platform.service.microapp.CommuteTimeService" android:enabled="true" android:exported="false" />
+        <meta-data android:name="io.fabric.ApiKey" android:value="0a14cc470ddf658f79b9a94590e2864f504e3cbb" />
+        <receiver android:name="com.portfolio.platform.receiver.BluetoothReceiver">
+            <intent-filter>
+                <action android:name="android.bluetooth.adapter.action.STATE_CHANGED" />
+            </intent-filter>
+        </receiver>
+        <receiver android:name="com.portfolio.platform.receiver.LocaleChangedReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.LOCALE_CHANGED" />
+            </intent-filter>
+        </receiver>
+        <receiver android:name="com.portfolio.platform.receiver.RestartServiceReceiver">
+            <intent-filter>
+                <action android:name="RestartButtonService" />
+            </intent-filter>
+        </receiver>
+        <receiver android:name="com.portfolio.platform.receiver.NetworkChangedReceiver" android:enabled="true" android:exported="false">
+            <intent-filter>
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+            </intent-filter>
+        </receiver>
+        <receiver android:name="com.portfolio.platform.receiver.TimeZoneReceiver" android:enabled="true" android:exported="false">
+            <intent-filter>
+                <action android:name="android.intent.action.TIMEZONE_CHANGED" />
+            </intent-filter>
+        </receiver>
+        <receiver android:name="com.portfolio.platform.receiver.UpgradeReceiver" android:enabled="true" android:exported="true" android:priority="999">
+            <intent-filter>
+                <action android:name="android.intent.action.MY_PACKAGE_REPLACED" />
+            </intent-filter>
+        </receiver>
+        <receiver android:name="com.portfolio.platform.receiver.BootReceiver" android:enabled="true" android:exported="false">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+            </intent-filter>
+        </receiver>
+        <receiver android:name="com.portfolio.platform.receiver.AlarmReceiver" android:enabled="true" android:exported="false">
+            <intent-filter>
+                <action android:name="com.portfolio.platform.ALARM_RECEIVER" />
+            </intent-filter>
+        </receiver>
+        <activity android:theme="@style/com_facebook_activity_theme" android:label="@string/app_name" android:name="com.facebook.FacebookActivity" android:launchMode="singleTop" android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize" />
+        <meta-data android:name="com.facebook.sdk.ApplicationId" android:value="@string/facebook_app_id" />
+        <receiver android:name="com.portfolio.platform.receiver.PhonecallReceiver" android:enabled="true">
+            <intent-filter>
+                <action android:name="android.intent.action.PHONE_STATE" />
+            </intent-filter>
+        </receiver>
+        <receiver android:name="com.portfolio.platform.receiver.SmsMmsReceiver" android:enabled="true">
+            <intent-filter>
+                <action android:name="android.provider.Telephony.WAP_PUSH_RECEIVED" />
+                <data android:mimeType="application/vnd.wap.mms-message" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.provider.Telephony.SMS_RECEIVED" />
+            </intent-filter>
+        </receiver>
+        <service android:name="com.portfolio.platform.pushnotification.PushNotificationService">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+        <service android:name="com.portfolio.platform.pushnotification.PushNotificationIDService">
+            <intent-filter>
+                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
+            </intent-filter>
+        </service>
+        <service android:name="com.portfolio.platform.service.ExecutePendingDataService" android:permission="android.permission.BIND_JOB_SERVICE" android:exported="true" />
+        <meta-data android:name="com.google.firebase.messaging.default_notification_color" android:resource="@c2076a/colorAccent" />
+        <service android:name="com.portfolio.platform.service.BackendFitnessService" android:enabled="true" android:exported="false" />
+        <service android:name="com.portfolio.platform.service.UploadLogServiceIntentService" android:exported="false" />
+        <service android:name="com.portfolio.platform.service.UserInfoService" android:enabled="true" android:exported="false" />
+        <service android:name="com.portfolio.platform.manager.network.BestTimeService" android:permission="com.google.android.gms.permission.BIND_NETWORK_TASK_SERVICE" android:exported="true">
+            <intent-filter>
+                <action android:name="com.google.android.gms.gcm.ACTION_TASK_READY" />
+            </intent-filter>
+        </service>
+        <activity android:name="com.portfolio.platform.ui.debug.DebugClearDataWarningActivity" android:screenOrientation="portrait" android:configChanges="keyboard|keyboardHidden|navigation|orientation|screenSize" />
+        <activity android:name="com.portfolio.platform.ui.debug.LogcatActivity" android:screenOrientation="portrait" android:configChanges="keyboard|keyboardHidden|navigation|orientation|screenSize" />
+        <activity android:theme="@style/AppTheme.ScreenTransition" android:name="com.portfolio.platform.ui.profile.main.MainProfileActivity" android:screenOrientation="portrait" android:configChanges="keyboard|keyboardHidden|navigation|orientation|screenSize" />
+        <activity android:theme="@style/AppTheme.ScreenTransition" android:name="com.portfolio.platform.ui.profile.preferences.ProfilePrefActivity" android:screenOrientation="portrait" android:configChanges="keyboard|keyboardHidden|navigation|orientation|screenSize" />
+        <activity android:theme="@style/AppTheme.ScreenTransition" android:name="com.portfolio.platform.ui.profile.support.ProfileSupportActivity" android:screenOrientation="portrait" android:configChanges="keyboard|keyboardHidden|navigation|orientation|screenSize" />
+        <activity android:name="com.portfolio.platform.ui.debug.DebugActivity" android:screenOrientation="portrait" android:configChanges="keyboard|keyboardHidden|navigation|orientation|screenSize" />
+        <activity android:theme="@style/AppTheme.ScreenTransition" android:name="com.portfolio.platform.ui.device.DeviceActivity" android:screenOrientation="portrait" android:configChanges="keyboard|keyboardHidden|navigation|orientation|screenSize" />
+        <activity android:theme="@style/AppTheme.ScreenTransition" android:name="com.portfolio.platform.ui.device.calibration.DeviceCalibrationActivity" android:screenOrientation="portrait" android:configChanges="keyboard|keyboardHidden|navigation|orientation|screenSize" />
+        <activity android:theme="@style/AppTheme.ScreenTransition" android:name="com.portfolio.platform.ui.device.alarm.main.AlarmMainActivity" android:screenOrientation="portrait" android:configChanges="keyboard|keyboardHidden|navigation|orientation|screenSize" />
+        <activity android:theme="@style/AppTheme.ScreenTransition" android:name="com.portfolio.platform.ui.device.alarm.set.AlarmSetActivity" android:screenOrientation="portrait" android:configChanges="keyboard|keyboardHidden|navigation|orientation|screenSize" />
+        <activity android:theme="@style/AppTheme.ScreenTransition" android:name="com.portfolio.platform.ui.device.locate.proximity.DeviceLocateProximityActivity" android:screenOrientation="portrait" android:configChanges="keyboard|keyboardHidden|navigation|orientation|screenSize" />
+        <activity android:theme="@style/AppTheme.ScreenTransition" android:name="com.portfolio.platform.ui.device.locate.map.DeviceLocateMapActivity" android:screenOrientation="portrait" android:configChanges="keyboard|keyboardHidden|navigation|orientation|screenSize" />
+        <activity android:theme="@style/AppTheme.ScreenTransition" android:name="com.portfolio.platform.ui.device.battery.DeviceBatteryActivity" android:screenOrientation="portrait" android:configChanges="keyboard|keyboardHidden|navigation|orientation|screenSize" />
+        <activity android:theme="@style/AppTheme.ScreenTransition" android:name="com.portfolio.platform.ui.shortcuts.details.goaltracking.GoalTrackingEditActivity" android:screenOrientation="portrait" android:configChanges="keyboard|keyboardHidden|navigation|orientation|screenSize" />
+        <activity android:theme="@style/AppTheme.ScreenTransition" android:name="com.portfolio.platform.ui.buddychallenge.activity.BCCreateAccountActivity" android:screenOrientation="portrait" android:configChanges="keyboard|keyboardHidden|navigation|orientation|screenSize" />
+        <activity android:theme="@style/AppTheme.ScreenTransition" android:name="com.portfolio.platform.ui.buddychallenge.activity.BCFindOpponentActivity" android:screenOrientation="portrait" android:configChanges="keyboard|keyboardHidden|navigation|orientation|screenSize" />
+        <activity android:theme="@style/AppTheme.ScreenTransition" android:name="com.portfolio.platform.ui.profile.connectedapps.underamourrecord.UnderAmourRecordActivity" android:screenOrientation="portrait" android:configChanges="keyboard|keyboardHidden|navigation|orientation|screenSize" />
+        <activity android:theme="@style/AppTheme.ScreenTransition" android:name="com.portfolio.platform.ui.profile.connectedapps.upbyjawbone.UpByJawBoneActivity" android:screenOrientation="portrait" android:configChanges="keyboard|keyboardHidden|navigation|orientation|screenSize" />
+        <activity android:name="com.facebook.CustomTabActivity" android:exported="true" />
+        <activity android:name="com.facebook.CustomTabMainActivity" />
+        <meta-data android:name="android.support.VERSION" android:value="25.4.0" />
+        <activity android:theme="@*android:style/Theme.Translucent.NoTitleBar" android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity" android:exported="false" android:excludeFromRecents="true" />
+        <service android:name="com.google.android.gms.auth.api.signin.RevocationBoundService" android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION" android:exported="true" />
+        <activity android:theme="@*android:style/Theme.Translucent.NoTitleBar" android:name="com.google.android.gms.common.api.GoogleApiActivity" android:exported="false" />
+        <service android:name="com.google.firebase.messaging.FirebaseMessagingService" android:exported="true">
+            <intent-filter android:priority="-500">
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+        <activity android:theme="@style/EasyPermissions.Transparent" android:label="" android:name="pub.devrel.easypermissions.AppSettingsDialogHolderActivity" android:exported="false" />
+        <service android:name="com.misfit.frameworks.buttonservice.ButtonService" android:exported="true" android:process=":buttonservice" />
+        <receiver android:name="com.google.android.gms.measurement.AppMeasurementReceiver" android:enabled="true" android:exported="false" />
+        <receiver android:name="com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver" android:permission="android.permission.INSTALL_PACKAGES" android:enabled="true" android:exported="true">
+            <intent-filter>
+                <action android:name="com.android.vending.INSTALL_REFERRER" />
+            </intent-filter>
+        </receiver>
+        <service android:name="com.google.android.gms.measurement.AppMeasurementService" android:enabled="true" android:exported="false" />
+        <service android:name="com.google.android.gms.measurement.AppMeasurementJobService" android:permission="android.permission.BIND_JOB_SERVICE" android:enabled="true" android:exported="false" />
+        <receiver android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver" android:permission="com.google.android.c2dm.permission.SEND" android:exported="true">
+            <intent-filter>
+                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+                <category android:name="com.fossil.wearables.fossil" />
+            </intent-filter>
+        </receiver>
+        <receiver android:name="com.google.firebase.iid.FirebaseInstanceIdInternalReceiver" android:exported="false" />
+        <service android:name="com.google.firebase.iid.FirebaseInstanceIdService" android:exported="true">
+            <intent-filter android:priority="-500">
+                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
+            </intent-filter>
+        </service>
+        <provider android:name="com.google.firebase.provider.FirebaseInitProvider" android:exported="false" android:authorities="com.fossil.wearables.fossil.firebaseinitprovider" android:initOrder="100" />
+        <meta-data android:name="com.google.android.gms.version" android:value="@integer/google_play_services_version" />
+    </application>
+</manifest>

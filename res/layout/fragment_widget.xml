@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res-auto" app:id="@id/widget_container" app:background="@color/transparent" app:layout_width="match_parent" app:layout_height="UNKNOWN_DATA_0x7f0a014b">
+    <android.support.v7.widget.RecyclerView app:id="@id/rv_widget" app:background="@color/transparent" app:layout_width="UNKNOWN_DATA_0x1" app:layout_height="UNKNOWN_DATA_0x1" app:overScrollMode="never" app:layout_constraintBottom_toBottomOf="0" app:layout_constraintEnd_toEndOf="0" app:layout_constraintStart_toStartOf="0" app:layout_constraintTop_toTopOf="0" />
+</android.support.constraint.ConstraintLayout>

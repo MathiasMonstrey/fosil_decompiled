@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="debug_log_filter">
+        <item>Application</item>
+        <item>ButtonService</item>
+    </array>
+    <array name="ea_progress_done_line_color_array">
+        <item>@color/colorRed</item>
+        <item>@color/colorGreen</item>
+        <item>@color/colorBlue</item>
+    </array>
+    <array name="ea_progress_done_rectangle_color_array">
+        <item>@color/colorRed</item>
+        <item>@color/colorGreen</item>
+        <item>@color/colorBlue</item>
+    </array>
+    <array name="ea_progress_done_rectangle_stroke_color_array">
+        <item>@color/colorBlue</item>
+        <item>@color/colorGreen</item>
+        <item>@color/colorRed</item>
+    </array>
+</resources>

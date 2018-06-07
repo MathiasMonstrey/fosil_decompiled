@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res-auto" app:orientation="vertical" app:layout_width="match_parent" app:layout_height="UNKNOWN_DATA_0x7f0a002a">
+    <com.portfolio.platform.view.FlexibleTextView app:textSize="18sp" app:id="@id/title" app:layout_width="wrap_content" app:layout_height="wrap_content" app:layout_constraintBottom_toBottomOf="0" app:layout_constraintEnd_toEndOf="0" app:layout_constraintHorizontal_bias="0.1" app:layout_constraintStart_toStartOf="0" app:layout_constraintTop_toTopOf="0" style="@style/ScoutRegular" />
+    <ImageView app:layout_width="wrap_content" app:layout_height="UNKNOWN_DATA_0x7f0a006d" app:src="@drawable/ic_caret_right_red" app:rotation="270.0" app:layout_marginEnd="@dimen/dp20" app:layout_constraintBottom_toBottomOf="0" app:layout_constraintEnd_toEndOf="0" app:layout_constraintTop_toTopOf="0" app:layout_constraintVertical_bias="0.2" />
+    <ImageView app:layout_width="wrap_content" app:layout_height="UNKNOWN_DATA_0x7f0a006d" app:src="@drawable/ic_caret_right_red" app:rotation="90.0" app:layout_marginEnd="@dimen/dp20" app:layout_constraintBottom_toBottomOf="0" app:layout_constraintEnd_toEndOf="0" app:layout_constraintTop_toTopOf="0" app:layout_constraintVertical_bias="0.6" />
+</android.support.constraint.ConstraintLayout>

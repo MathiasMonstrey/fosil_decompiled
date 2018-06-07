@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res-auto" app:id="@id/widget_container" app:background="@color/transparent" app:layout_width="match_parent" app:layout_height="wrap_content">
+    <TextView app:textSize="20sp" app:textColor="@color/black" app:id="@id/tv_title" app:layout_width="wrap_content" app:layout_height="wrap_content" app:layout_margin="@dimen/dp20" app:text="Our Latest Instagram Post" app:layout_constraintBottom_toTopOf="@id/rv_integration" app:layout_constraintStart_toStartOf="0" app:layout_constraintTop_toTopOf="0" />
+    <android.support.v7.widget.RecyclerView app:id="@id/rv_integration" app:background="@color/transparent" app:layout_width="UNKNOWN_DATA_0x1" app:layout_height="UNKNOWN_DATA_0x7f0a0149" app:overScrollMode="never" app:layout_constraintBottom_toBottomOf="0" app:layout_constraintEnd_toEndOf="0" app:layout_constraintStart_toStartOf="0" app:layout_constraintTop_toBottomOf="@id/tv_title" />
+</android.support.constraint.ConstraintLayout>

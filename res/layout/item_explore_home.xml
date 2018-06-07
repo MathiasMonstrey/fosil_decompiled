@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.portfolio.platform.view.FlexibleTextView android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/title" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/typography_padding_header_none" android:layout_marginBottom="@dimen/typography_padding_header_bottom" style="@style/H2.Charcoal" />
+    <com.portfolio.platform.view.FlexibleTextView android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/description" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginStart="@dimen/dp10" android:layout_marginEnd="@dimen/dp10" style="@style/Body.CoolGray" />
+</LinearLayout>

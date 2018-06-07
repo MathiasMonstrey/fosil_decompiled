@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res-auto" app:layout_width="match_parent" app:layout_height="match_parent">
+    <com.misfit.chart.lib.SleepWeeklyBarChart app:id="@c2077b/barchart" app:background="#222" app:padding="10dp" app:layout_width="match_parent" app:layout_height="match_parent" app:egBarWidth="10dp" app:egFixedBarWidth="true" app:egFont="ACaslonPro-Italic.otf" app:egSelectedColor="0x1060000" app:egLegendHeight="30dp" />
+</RelativeLayout>

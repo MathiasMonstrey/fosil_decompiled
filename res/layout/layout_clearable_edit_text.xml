@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="@id/clearable_container" android:background="@c2076a/white" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ImageView android:id="@id/iv_clear_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_close_dark" android:layout_centerVertical="true" android:paddingEnd="@dimen/activity_horizontal_margin" android:layout_alignParentEnd="true" />
+    <com.portfolio.platform.view.FlexibleEditText android:ellipsize="end" android:id="@id/edit_text" android:background="0x0" android:layout_width="match_parent" android:layout_height="wrap_content" android:maxLines="1" android:paddingStart="@dimen/activity_horizontal_margin" android:layout_toStartOf="@id/iv_clear_text" android:layout_alignParentStart="true" style="@style/EditText.Fossil" />
+</RelativeLayout>

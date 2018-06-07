@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mappingset>
+    <sku name="SE1_Fossil Q Gazer">
+        <microappmapping gesture="131" appid="201"/>
+        <microappmapping gesture="132" appid="202" />
+    </sku>
+    <sku name="SE1_Fossil Q Nate">
+        <microappmapping gesture="131" appid="201"/>
+        <microappmapping gesture="132" appid="202"/>
+    </sku>
+    <sku name="SE1_Fossil Q Crewmaster">
+        <microappmapping gesture="131" appid="201"/>
+        <microappmapping gesture="132" appid="202"/>
+    </sku>
+    <sku name="SLIM_Fossil Q Accomplice">
+        <microappmapping gesture="117" appid="2001"/>
+        <microappmapping gesture="127" appid="2002"/>
+        <microappmapping gesture="131" appid="201"/>
+        <microappmapping gesture="132" appid="202"/>
+    </sku>
+</mappingset>
+

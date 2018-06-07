@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:id="@id/activity_logcat" android:layout_width="match_parent" android:layout_height="match_parent">
+    <Spinner android:id="@id/spinner_filter" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x2301" android:layout_marginBottom="5dp" android:spinnerMode="dropdown" android:layout_marginStart="5dp" android:layout_marginEnd="5dp" />
+    <View android:background="0x106000c" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x101" />
+    <android.support.v7.widget.RecyclerView android:id="@id/logcat_text" android:scrollbars="vertical" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginBottom="5dp" android:layout_marginStart="5dp" android:layout_marginEnd="5dp" />
+</LinearLayout>

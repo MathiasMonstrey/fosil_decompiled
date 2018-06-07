@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res-auto" app:orientation="vertical" app:id="@id/card_view" app:background="@c2076a/white" app:layout_width="match_parent" app:layout_height="match_parent">
+    <ImageView app:id="@id/header_image" app:layout_width="match_parent" app:layout_height="UNKNOWN_DATA_0x1" app:scaleType="centerCrop" app:layout_weight="220.0" />
+    <com.portfolio.platform.view.AutoResizeTextView app:gravity="top|bottom|center_vertical|fill_vertical|center|fill" app:id="@id/title" app:layout_width="match_parent" app:layout_height="UNKNOWN_DATA_0x1" app:maxLines="1" app:layout_weight="51.0" app:textAllCaps="true" app:paddingStart="@dimen/dp25" app:paddingEnd="@dimen/dp25" app:minTextSize="@dimen/sp13" style="@style/H3" />
+    <com.portfolio.platform.view.AutoResizeTextView app:gravity="top|bottom|center_vertical|fill_vertical|center|fill" app:id="@id/description" app:paddingBottom="@dimen/dp25" app:layout_width="match_parent" app:layout_height="UNKNOWN_DATA_0x1" app:layout_weight="93.0" app:paddingStart="@dimen/dp25" app:paddingEnd="@dimen/dp25" app:minTextSize="@dimen/sp13" style="@style/Body.CoolGray" />
+</LinearLayout>

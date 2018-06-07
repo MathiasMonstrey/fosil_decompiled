@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res-auto" app:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" app:orientation="vertical" app:background="#000" app:padding="10dp" app:layout_width="match_parent" app:layout_height="match_parent">
+    <com.misfit.chart.lib.SleepDailyBarChart app:layout_width="match_parent" app:layout_height="match_parent" />
+</LinearLayout>

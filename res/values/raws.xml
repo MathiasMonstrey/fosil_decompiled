@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <raw name="flash_2_2_10">res/raw/flash_2_2_10.bin</raw>
+    <raw name="flash_firmware">res/raw/flash_firmware.bin</raw>
+    <raw name="mapping_set_default">res/raw/mapping_set_default.xml</raw>
+    <raw name="sam_ota_20170808_hw0_0_0_15r_v2_crc_encr">res/raw/sam_ota_20170808_hw0_0_0_15r_v2_crc_encr.bin</raw>
+    <raw name="sam_ota_hw0_0_0_14r_prod_v3_disable_hibernation">res/raw/sam_ota_hw0_0_0_14r_prod_v3_disable_hibernation.bin</raw>
+    <raw name="sam_ota_hw0_0_1_0r_v2_autotest_v5">res/raw/sam_ota_hw0_0_1_0r_v2_autotest_v5.bin</raw>
+    <raw name="timezone_cities">res/raw/timezone_cities.json</raw>
+</resources>

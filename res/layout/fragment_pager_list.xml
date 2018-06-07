@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res-auto" app:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" app:orientation="vertical" app:background="#000" app:layout_width="match_parent" app:layout_height="UNKNOWN_DATA_0xc801">
+    <com.misfit.chart.lib.EACubicChart app:id="@c2077b/stackedbarchart2" app:paddingTop="4dp" app:layout_width="match_parent" app:layout_height="match_parent" app:egFont="ACaslonPro-Italic.otf" app:egLegendEnable="true" app:egLegendColor="#82e4e4e4" app:egLegendHeight="0dp" app:egLegendTextSize="7sp" app:egBottomText="12AM" app:egCubicLineStrokeWidth="1dp" app:egLineCubicColor="#c8e4e4e4" app:egTopColor="#4e412c" app:egCenterColor="#8d7957" app:egBottomColor="#b19e7d" app:egBottomLineColor="#8e754c" app:egChartPaddingInside="20dp" />
+</LinearLayout>

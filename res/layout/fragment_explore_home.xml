@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res-auto" app:id="@id/relativeLayout" app:paddingBottom="@dimen/dp20" app:layout_width="match_parent" app:layout_height="match_parent">
+    <com.portfolio.platform.view.recyclerview.RecyclerViewPager app:id="@c2077b/pager" app:layout_width="UNKNOWN_DATA_0x1" app:layout_height="wrap_content" app:layout_constraintEnd_toEndOf="0" app:layout_constraintStart_toStartOf="0" app:layout_constraintTop_toTopOf="0" />
+    <com.portfolio.platform.view.FlexibleButton app:id="@id/fb_get_started" app:layout_width="UNKNOWN_DATA_0x7f0a004c" app:layout_height="wrap_content" app:text="@string/Onboarding_Explore_Home_CTA_GET_STARTED" app:layout_constraintBottom_toTopOf="@id/fl_widget" app:layout_constraintEnd_toEndOf="0" app:layout_constraintStart_toStartOf="0" app:layout_constraintTop_toBottomOf="@c2077b/pager" app:layout_constraintVertical_bias="0.4" style="@style/Button.Scarlett" />
+    <FrameLayout app:id="@id/fl_widget" app:background="@color/transparent" app:layout_width="UNKNOWN_DATA_0x1" app:layout_height="UNKNOWN_DATA_0x7f0a014b" app:layout_marginBottom="1dp" app:layout_constraintBottom_toBottomOf="0" app:layout_constraintEnd_toEndOf="0" app:layout_constraintStart_toStartOf="0" />
+</android.support.constraint.ConstraintLayout>

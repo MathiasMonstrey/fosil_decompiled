@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="horizontal" android:id="@id/card_view" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ImageView android:id="@id/button_icon" android:paddingTop="@dimen/dp12" android:paddingBottom="@dimen/dp12" android:layout_width="wrap_content" android:layout_height="match_parent" android:src="@drawable/ic_footer_device" android:scaleType="fitCenter" />
+    <com.portfolio.platform.view.FlexibleTextView android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/button_name_tv" android:layout_width="wrap_content" android:layout_height="match_parent" android:singleLine="true" android:layout_weight="1.0" android:textAllCaps="true" android:textDirection="locale" android:layout_marginStart="@dimen/dp4" android:layout_marginEnd="@dimen/dp10" style="@style/ScoutBold.16.Charcoal" />
+</merge>

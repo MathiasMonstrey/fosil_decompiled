@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:background="@color/transparent" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.portfolio.platform.view.FlexibleTextView android:id="@id/primary_tv" android:padding="@dimen/activity_horizontal_margin_less_small" android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/Small.CoolGray" />
+    <com.portfolio.platform.view.FlexibleTextView android:id="@id/secondary_tv" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/activity_horizontal_margin_less_small" android:paddingEnd="@dimen/activity_horizontal_margin_less_small" style="@style/Small.CoolGray" />
+</LinearLayout>

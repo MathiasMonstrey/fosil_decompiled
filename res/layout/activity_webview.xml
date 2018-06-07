@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:tag="layout/activity_webview_0" android:fitsSystemWindows="true" android:layout_width="match_parent" android:layout_height="match_parent">
+    <RelativeLayout android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x10102eb">
+        <ImageView android:id="@id/ivRightButton" android:layout_alignParentStart="true" style="@style/ImageView.MenuItem" />
+        <com.portfolio.platform.view.FlexibleTextView android:textSize="@dimen/sp16" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/ftvTitle" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginStart="@dimen/dp80" android:layout_marginEnd="@dimen/dp80" />
+    </RelativeLayout>
+    <WebView android:id="@id/webView" android:layout_width="match_parent" android:layout_height="match_parent" />
+</LinearLayout>

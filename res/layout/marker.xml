@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="UNKNOWN_DATA_0x7f0a008e" android:layout_height="UNKNOWN_DATA_0x7f0a008e">
+    <ImageView android:id="@id/map_pin" android:layout_width="match_parent" android:layout_height="match_parent" android:src="@drawable/ic_where_is_flash_map_pin" android:scaleType="fitCenter" />
+    <ImageView android:id="@id/image" android:padding="@dimen/dp10" android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_marginBottom="@dimen/dp20" android:scaleType="fitCenter" android:layout_alignTop="@id/map_pin" android:layout_alignBottom="@id/map_pin" android:layout_alignStart="@id/map_pin" android:layout_alignEnd="@id/map_pin" />
+</RelativeLayout>

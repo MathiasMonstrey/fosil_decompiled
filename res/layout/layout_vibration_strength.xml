@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <ImageView android:id="@id/iv_close" android:padding="@dimen/dp15" android:layout_width="UNKNOWN_DATA_0x10102eb" android:layout_height="UNKNOWN_DATA_0x10102eb" android:src="@drawable/ic_header_close" android:layout_alignParentTop="true" android:layout_alignParentEnd="true" />
+    <com.portfolio.platform.view.FlexibleTextView android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/ftv_title" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/Device_Vibration_Title_VIBRATION_STRENGTH" android:layout_below="@id/iv_close" android:textAllCaps="true" style="@style/H3" />
+    <com.portfolio.platform.view.CustomCheckbox android:id="@id/checkbox_light" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f0a0075" android:layout_marginTop="@dimen/typography_padding_header" android:layout_below="@id/ftv_title" />
+    <com.portfolio.platform.view.CustomCheckbox android:id="@id/checkbox_medium" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f0a0075" android:layout_below="@id/checkbox_light" />
+    <com.portfolio.platform.view.CustomCheckbox android:id="@id/checkbox_strong" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f0a0075" android:layout_marginBottom="@dimen/screen_padding_end" android:layout_below="@id/checkbox_medium" />
+</RelativeLayout>

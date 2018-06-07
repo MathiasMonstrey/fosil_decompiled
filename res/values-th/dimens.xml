@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="device_detail_label">@dimen/sp14</dimen>
+    <dimen name="textSizeProfileInfo">22sp</dimen>
+</resources>

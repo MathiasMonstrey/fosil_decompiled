@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent"
+    <LinearLayout android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="10dp" android:weightSum="4.0">
+        <com.portfolio.platform.view.FlexibleTextView android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:layout_width="wrap_content" android:layout_height="match_parent" android:text="Delay" android:layout_weight="1.0" />
+        <EditText android:id="@id/et_delay" android:layout_width="wrap_content" android:layout_height="match_parent" android:hint="Seconds (0: Disable)" android:ems="10" android:layout_weight="3.0" android:inputType="number|numberSigned|numberDecimal|numberPassword|phone" android:layout_marginStart="10dp" />
+    </LinearLayout>
+    <LinearLayout android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="10dp" android:weightSum="4.0">
+        <com.portfolio.platform.view.FlexibleTextView android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:layout_width="wrap_content" android:layout_height="match_parent" android:text="Duration" android:layout_weight="1.0" />
+        <EditText android:id="@id/et_duration" android:layout_width="wrap_content" android:layout_height="match_parent" android:hint="Seconds (0: Disable)" android:ems="10" android:layout_weight="3.0" android:inputType="number|numberSigned|numberDecimal|numberPassword|phone" android:layout_marginStart="10dp" />
+    </LinearLayout>
+    <LinearLayout android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="10dp" android:weightSum="4.0">
+        <com.portfolio.platform.view.FlexibleTextView android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:layout_width="wrap_content" android:layout_height="match_parent" android:text="Repeat" android:layout_weight="1.0" />
+        <EditText android:id="@id/et_repeat" android:layout_width="wrap_content" android:layout_height="match_parent" android:hint="Seconds" android:ems="10" android:layout_weight="3.0" android:inputType="number|numberSigned|numberDecimal|numberPassword|phone" android:layout_marginStart="10dp" />
+    </LinearLayout>
+    <LinearLayout android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="10dp" android:weightSum="4.0">
+        <com.portfolio.platform.view.FlexibleTextView android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:layout_width="wrap_content" android:layout_height="match_parent" android:text="delay each time" android:layout_weight="1.0" />
+        <EditText android:id="@id/et_delay_each_time" android:layout_width="wrap_content" android:layout_height="match_parent" android:hint="Seconds" android:ems="10" android:layout_weight="3.0" android:inputType="number|numberSigned|numberDecimal|numberPassword|phone" android:layout_marginStart="10dp" />
+    </LinearLayout>
+    <com.portfolio.platform.view.FlexibleButton android:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/btn_done" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Done" />
+</LinearLayout>

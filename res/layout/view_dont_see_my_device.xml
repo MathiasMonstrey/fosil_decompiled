@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res-auto" app:background="@drawable/rounded_white_border" app:layout_width="match_parent" app:layout_height="UNKNOWN_DATA_0x7f0a0142" app:layout_marginTop="@dimen/dp10" app:layout_marginBottom="@dimen/dp10" app:layout_marginStart="@dimen/dp10" app:layout_marginEnd="@dimen/dp10">
+    <com.portfolio.platform.view.UnderlinedTextView app:id="@id/ftv_dont_see_device" app:background="@drawable/rounded_white_border" app:layout_width="wrap_content" app:layout_height="UNKNOWN_DATA_0x7f0a005e" app:text="@string/Onboarding_Pair_CTA_I_dont_see_my_device" app:layout_centerVertical="true" app:paddingStart="@dimen/device_list_item_height" app:underlineDistance="@dimen/dp8" app:underlineColor="@color/fossilCharcoal" />
+</RelativeLayout>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.FossilSwipeRefreshLayout xmlns:android="http://schemas.android.com/apk/res-auto" app:id="@id/srlPullToSync" app:layout_width="match_parent" app:layout_height="match_parent" app:elevation="0dp">
+    <RelativeLayout app:background="@color/transparent" app:layout_width="match_parent" app:layout_height="match_parent">
+        <FrameLayout app:id="@id/fl_widget" app:background="@color/transparent" app:layout_width="match_parent" app:layout_height="UNKNOWN_DATA_0x7f0a014b" app:layout_marginTop="@dimen/dp15" app:layout_marginBottom="@dimen/dp20" app:layout_alignParentBottom="true" app:overScrollMode="never" />
+        <com.portfolio.platform.view.recyclerview.RecyclerViewPager app:id="@id/vp_top_container" app:background="@c2076a/white" app:layout_width="match_parent" app:layout_height="match_parent" app:layout_above="@id/fl_widget" app:layout_alignParentTop="true" />
+        <com.portfolio.platform.view.indicator.CirclePageIndicator app:id="@id/indicator" app:paddingBottom="@dimen/padding_10" app:visibility="visible" app:layout_width="match_parent" app:layout_height="wrap_content" app:layout_above="@id/fl_widget" app:fillColor="@color/fossilOrange" app:pageColor="@color/hexA6FFFFFF" app:radius="@dimen/dp6" app:gapWidth="@dimen/dp9" />
+    </RelativeLayout>
+</android.support.v4.widget.FossilSwipeRefreshLayout>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:paddingLeft="@dimen/activity_horizontal_margin" android:paddingTop="@dimen/activity_vertical_margin" android:paddingRight="@dimen/activity_horizontal_margin" android:paddingBottom="@dimen/activity_vertical_margin" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ScrollView android:layout_width="match_parent" android:layout_height="match_parent">
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <com.portfolio.platform.view.FlexibleTextView android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="5dp" android:text="Debug Activity" style="@style/Section.Title" />
+            <com.portfolio.platform.view.FlexibleButton android:id="@id/btn_view_log" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="View Log" />
+            <com.portfolio.platform.view.FlexibleButton android:id="@id/btn_send_log" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Send Log" />
+            <com.portfolio.platform.view.FlexibleButton android:id="@id/btn_week_streak" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Week streak" />
+            <com.portfolio.platform.view.FlexibleButton android:id="@id/btn_best_week" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Best week" />
+            <com.portfolio.platform.view.FlexibleButton android:id="@id/btn_best_day" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Best day" />
+            <com.portfolio.platform.view.FlexibleButton android:id="@id/btn_dummy_data" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Generate 7 mDays dummy data" />
+            <com.portfolio.platform.view.FlexibleButton android:id="@id/btn_my_devices" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="My Devices" />
+            <com.portfolio.platform.view.FlexibleButton android:id="@id/btn_move_to_welcome_activity" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Move To Welcome Activity" />
+            <com.portfolio.platform.view.FlexibleButton android:id="@id/btn_clear_data" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Clear data" />
+            <com.portfolio.platform.view.FlexibleButton android:id="@id/btn_goal_celebration" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Goal Celebration" />
+            <com.portfolio.platform.view.FlexibleButton android:id="@id/btn_bluetooth_setting" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Open bluetooth setting" />
+            <com.portfolio.platform.view.FlexibleButton android:id="@id/btn_simulate_disconnection" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Simulate disconnection" />
+            <com.portfolio.platform.view.FlexibleButton android:id="@id/btn_reset_device_setting_to_default" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Reset Device Setting in Firmware to Default" />
+            <com.portfolio.platform.view.FlexibleButton android:id="@id/btn_disconnection_test" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Disconnection Test" />
+            <com.portfolio.platform.view.FlexibleButton android:id="@id/btn_low_battery" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Trigger low battery Event" />
+            <com.portfolio.platform.view.FlexibleButton android:id="@id/btn_watch_ota_15r_v2" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="OTA to Firmware HW0.0.0.15r.v2" />
+            <com.portfolio.platform.view.FlexibleButton android:id="@id/btn_watch_ota_14r_prod_v3_test" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="OTA to Firmware HW0.0.0.14r.prod.v3.disable_hibernation" />
+            <com.portfolio.platform.view.FlexibleButton android:id="@id/btn_reset_uapp_log" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Reset Uapp log files" />
+            <LinearLayout android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <com.portfolio.platform.view.FlexibleTextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Skip OTA" />
+                <CheckBox android:id="@id/cb_skip_ota" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="10dp" />
+            </LinearLayout>
+            <LinearLayout android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <com.portfolio.platform.view.FlexibleTextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Show all devices" />
+                <CheckBox android:id="@id/cb_filter_all_devices" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="10dp" />
+            </LinearLayout>
+            <LinearLayout android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <com.portfolio.platform.view.FlexibleTextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Disable HWlog-Sync" />
+                <CheckBox android:id="@id/cb_disable_hwlog_sync" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="10dp" />
+            </LinearLayout>
+            <LinearLayout android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <com.portfolio.platform.view.FlexibleTextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Disable Auto-Sync" />
+                <CheckBox android:id="@id/cb_disable_auto_sync" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="10dp" />
+            </LinearLayout>
+            <LinearLayout android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <com.portfolio.platform.view.FlexibleTextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Consider bundle firmware as latest" />
+                <CheckBox android:id="@id/cb_bundle_firmware_latest" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="10dp" />
+            </LinearLayout>
+            <com.portfolio.platform.view.FlexibleTextView android:textColor="@color/black" android:id="@id/tv_bundle_firmware_description" android:background="@c2076a/white" android:layout_width="match_parent" android:layout_height="wrap_content" />
+            <LinearLayout android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <com.portfolio.platform.view.FlexibleTextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Debug Buddy Challenge" />
+                <CheckBox android:id="@id/cb_debug_buddy_challenge" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="10dp" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="@id/wrapper_toolbar" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_alignParentTop="true">
+    <com.portfolio.platform.view.FlexibleButton android:id="@id/bt_left" android:text="@string/Notifications_Contacts_Reassign_CTA_CANCEL" android:textAllCaps="false" style="@style/Button.MenuItem" />
+    <com.portfolio.platform.view.FlexibleButton android:id="@id/bt_right" android:text="@string/Onboarding_Firmware_Error_Wifi_Action_Skip" android:layout_alignParentEnd="true" style="@style/Button.MenuItem" />
+</RelativeLayout>
